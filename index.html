@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="logic.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="score">
+            <h3>IKS-OKS</h3>
+        </div>
+        <div class="wrapper">
+            <div class="boxGlavni">
+                <div class="prviRed">
+                    <div class="box" id="0" onclick="sledeciPotezHuman(0,0);"></div>
+                    <div class="box" id="1" onclick="sledeciPotezHuman(0,1);"></div>
+                    <div class="box" id="2" onclick="sledeciPotezHuman(0,2);"></div>
+                </div>
+                <div class="drugiRed">
+                    <div class="box" id="3" onclick="sledeciPotezHuman(1,0);"></div>
+                    <div class="box" id="4" onclick="sledeciPotezHuman(1,1);"></div>
+                    <div class="box" id="5" onclick="sledeciPotezHuman(1,2);"></div>
+                </div>
+                <div class="treciRed">
+                    <div class="box" id="6" onclick="sledeciPotezHuman(2,0);"></div>
+                    <div class="box" id="7" onclick="sledeciPotezHuman(2,1);"></div>
+                    <div class="box" id="8" onclick="sledeciPotezHuman(2,2);"></div>
+                </div>
+            </div>
+        </div>
+        <div class="score">
+            <button class="btn" onclick="newGame()">Nova igra</button>
+        </div>
+        <div class="score">
+            <h2 id="poruka"></h2>
+        </div>
+    </main>
+
+</body>
+</html>

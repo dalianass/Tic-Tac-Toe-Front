@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    /* font-weight: 400; */
+    min-height: 100vh;
+    color: #333;
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main {
+    position: relative;
+    /* width: 60vw;
+    height: 40vh; */
+    background-color: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.45);
+    border-radius: 9px;
+    margin: 2rem;
+
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 5rem;
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+.boxGlavni{
+    margin: 1rem 5rem 1rem 5rem;
+    /* width: 30vw; */
+    /* border: 1px solid green; */
+}
+.tekst {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 1rem;
+}
+
+.prviRed, .drugiRed, .treciRed {
+    display: flex;
+}
+
+.box {
+    width: 8vw;
+    height: 8vw;
+    outline: 3px solid #333;
+    margin: auto 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 1.8rem auto;
+    font-family: arial, sans-serif;
+}
+
+@keyframes jiggle {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    25% {
+      transform: rotateZ(-5deg);
+    }
+    75% {
+      transform: rotateZ(5deg);
+    }
+    100% {
+      transform: rotateZ(0deg);
+    }
+  }
+  
+  h2 {
+    animation: jiggle 0.7s infinite;
+  }
+  
+  
